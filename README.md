@@ -7,11 +7,11 @@ https://www.kaggle.com/datasets/rashikrahmanpritom/groceries-dataset-for-market-
 
 Converts\
 | 1 | 2 | 3 | 4 |\
-milk,bread,?,?\
+milk,bread,?,?
 
 into...\
 | Milk | Bread |...\
-TRUE, TRUE, ?,?\
+TRUE, TRUE, ?,?
 
 ### Side note
 
