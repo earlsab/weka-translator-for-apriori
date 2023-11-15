@@ -34,6 +34,9 @@ with open(input_file) as csv_file_reader:
             if (not item in unique_items) and (not item in ignore_items):
                 unique_items.append(item)
 
+print(unique_items)
+print(f'Processed {row_count} rows, and {column_count} items')
+
 with open(input_file) as csv_file_reader:
     with open(output_file, 'w', newline='') as csv_file_writer:
         # Headers
@@ -55,7 +58,5 @@ with open(input_file) as csv_file_reader:
             csv_writer.writerow(row_staging)
 
 
-print(unique_items)
-print(f'Processed {row_count} rows, and {column_count} items')
 
 
